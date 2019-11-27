@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ASUS\Desktop\modules\subtractor\Test
+vcomparator
+Z1 !s100 5]`_YoeQR^DT>@969fj^G0
+Z2 INb;B;ehaZm=ami7AU[I;_3
+Z3 Vn[4=3Xn8[_@AIb[mCfWDM3
+Z4 dC:\Users\ASUS\Desktop\modules\comparator\Test
+Z5 w1574763690
+Z6 8C:/Users/ASUS/Desktop/modules/comparator/comparator.v
+Z7 FC:/Users/ASUS/Desktop/modules/comparator/comparator.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/ASUS/Desktop/modules/comparator/comparator.v|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1574805128.508000
+Z12 !s107 C:/Users/ASUS/Desktop/modules/comparator/comparator.v|
+!s101 -O0
+vTB
+!i10b 1
+!s100 XK`8C=lL4K<H55ZoQ4^In2
+I3I6LELcdUlZozo@9mVQXI0
+Z13 Vc<=32996OT2f`M7E_UhYX1
+R4
+w1574805119
+Z14 8C:/Users/ASUS/Desktop/modules/comparator/TB.v
+Z15 FC:/Users/ASUS/Desktop/modules/comparator/TB.v
+L0 4
+R8
+r1
+!s85 0
+31
+!s108 1574805128.843000
+!s107 C:/Users/ASUS/Desktop/modules/comparator/TB.v|
+Z16 !s90 -reportprogress|300|-work|work|C:/Users/ASUS/Desktop/modules/comparator/TB.v|
+!s101 -O0
+R10
+n@t@b

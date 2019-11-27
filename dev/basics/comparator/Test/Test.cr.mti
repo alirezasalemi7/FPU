@@ -1,0 +1,15 @@
+C:/Users/ASUS/Desktop/modules/comparator/comparator.v {1 {vlog -work work C:/Users/ASUS/Desktop/modules/comparator/comparator.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}} C:/Users/ASUS/Desktop/modules/comparator/TB.v {1 {vlog -work work C:/Users/ASUS/Desktop/modules/comparator/TB.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}}

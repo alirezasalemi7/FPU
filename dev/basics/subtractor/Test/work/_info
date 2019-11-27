@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ASUS\Desktop\modules\mux\Test
+vsubtractor
+Z1 !s100 SYYm][GW7]z8fPCLmoa[M2
+Z2 I^NFXS0?Vf<XNi_U^W87Oz2
+Z3 VAgjnW_e4P]zHYd]SLcBAG3
+Z4 dC:\Users\ASUS\Desktop\modules\subtractor\Test
+Z5 w1574762086
+Z6 8C:/Users/ASUS/Desktop/modules/subtractor/subtractor.v
+Z7 FC:/Users/ASUS/Desktop/modules/subtractor/subtractor.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/ASUS/Desktop/modules/subtractor/subtractor.v|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1574762411.862000
+Z12 !s107 C:/Users/ASUS/Desktop/modules/subtractor/subtractor.v|
+!s101 -O0
+vTB
+!i10b 1
+!s100 fRkB9];Ke9F8d60]CJl[K0
+I2kAEFF3eS@2SKMMm4@^EC1
+Vc<=32996OT2f`M7E_UhYX1
+R4
+w1574762408
+8C:/Users/ASUS/Desktop/modules/subtractor/TB.v
+FC:/Users/ASUS/Desktop/modules/subtractor/TB.v
+L0 4
+R8
+r1
+!s85 0
+31
+!s108 1574762412.109000
+!s107 C:/Users/ASUS/Desktop/modules/subtractor/TB.v|
+!s90 -reportprogress|300|-work|work|C:/Users/ASUS/Desktop/modules/subtractor/TB.v|
+!s101 -O0
+R10
+n@t@b
