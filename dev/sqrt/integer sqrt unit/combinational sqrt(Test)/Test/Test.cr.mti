@@ -1,0 +1,21 @@
+C:/Users/ASUS/Desktop/modules/combinational_sqrt/comb_sqrt.v {1 {vlog -work work +incdir+C:/Users/ASUS/Desktop/modules/comparator +incdir+C:/Users/ASUS/Desktop/modules/first_one_finder +incdir+C:/Users/ASUS/Desktop/modules/eraser +incdir+C:/Users/ASUS/Desktop/modules/mux +incdir+C:/Users/ASUS/Desktop/modules/sqrt_unit +incdir+C:/Users/ASUS/Desktop/modules/subtractor C:/Users/ASUS/Desktop/modules/combinational_sqrt/comb_sqrt.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module comparator
+-- Compiling module eraser
+-- Compiling module multiplexer
+-- Compiling module subtractor
+-- Compiling module sqrt_unit
+-- Compiling module first_one_finder
+-- Compiling module comb_sqrt
+
+Top level modules:
+	comb_sqrt
+
+} {} {}} C:/Users/ASUS/Desktop/modules/combinational_sqrt/TB.v {1 {vlog -work work C:/Users/ASUS/Desktop/modules/combinational_sqrt/TB.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}}
