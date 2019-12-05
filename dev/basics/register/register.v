@@ -10,7 +10,7 @@ module register(clk, rst, ld, din, qout);
     output reg[SIZE - 1 : 0] qout;
     always @(posedge clk, posedge rst) begin
         if(rst) begin
-            qout <= SIZE'b0;
+            qout <= 0;
         end
         else if(ld) begin
             qout <= din; 

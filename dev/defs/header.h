@@ -5,7 +5,7 @@
 `define NUM_OF_OPS 4
 `define OP_BITS 2
 `define INPUT_INTERFACE_INT_OUT 53
-`define INPUT_INTERFACE_EXP_OUT 12
+`define INPUT_INTERFACE_EXP_OUT 11
 `define OP_DIV_S 2'b00
 `define OP_SQ_S 2'b01
 `define OP_DIV_D 2'b10
@@ -16,10 +16,11 @@
 `define MODE_D_EXP_END 52
 `define MODE_S_EXP_START 30
 `define MODE_S_EXP_END 23
-`define MODE_S_MAN_START 0
-`define MODE_S_MAN_END 22
-`define MODE_D_MAN_START 0
-`define MODE_D_MAN_END 51
+`define MODE_S_MAN_START 22
+`define MODE_S_MAN_END 0
+`define MODE_D_MAN_START 51
+`define MODE_D_MAN_END 0
+`define MODE_S_EXP_SIZE 8
 
 
 
