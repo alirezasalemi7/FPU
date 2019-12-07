@@ -1,7 +1,7 @@
-`include "../defs/header.h"
+`include "header.h"
 
 
-module InputInterface(inpA, inpB, operation, outA, outB, expA, expB, signA, signB, flagsA, flagsB, op);
+module InputInterface(inpA, inpB, operation, outA, outB, expA, expB, signA, signB, flagsA, flagsB,op);
 
     /*
         InputInterface
@@ -14,6 +14,7 @@ module InputInterface(inpA, inpB, operation, outA, outB, expA, expB, signA, sign
     output [`INPUT_INTERFACE_EXP_OUT-1:0] expA,expB;      // the exponent of A,B
     output [`OP_BITS-1:0] op;     // operation that helps other module detect their works
     output [2 : 0] flagsA, flagsB;
+    output signA,signB;
     /*
         sign -> 0 for + | 1 for -
 
@@ -42,7 +43,7 @@ module InputInterface(inpA, inpB, operation, outA, outB, expA, expB, signA, sign
 						(inpA[`MODE_D_EXP_START : 0] == 0) ? 3'b01 : //zero
 						(inpA[`MODE_D_EXP_START : `MODE_D_EXP_END] == 11'b11111111111) & (inpA[`MODE_D_MAN_START : `MODE_D_MAN_END] == 0) ? 3'b10 : //inf
 						(inpA[`MODE_D_EXP_START : `MODE_D_EXP_END] == 11'b11111111111) & (inpA[`MODE_D_MAN_START : `MODE_D_MAN_END] != 0) ? 3'b11 : //nan
-						(inpA[`MODE_D_MAN_START : `MODE_D_MAN_END] == 0) ? 3'b00 : 3'b100 //denormal : normal
+						(inpA[`MODE_D_EXP_START : `MODE_D_EXP_END] == 0) ? 3'b00 : 3'b100 //denormal : normal
 					);
 	assign flagsB = (operation[1] == `S_MODE) ? 
 					( //signle
@@ -54,7 +55,7 @@ module InputInterface(inpA, inpB, operation, outA, outB, expA, expB, signA, sign
 						(inpB[`MODE_D_EXP_START : 0] == 0) ? 3'b01 : //zero
 						(inpB[`MODE_D_EXP_START : `MODE_D_EXP_END] == 11'b11111111111) & (inpB[`MODE_D_MAN_START : `MODE_D_MAN_END] == 0) ? 3'b10 : //inf
 						(inpB[`MODE_D_EXP_START : `MODE_D_EXP_END] == 11'b11111111111) & (inpB[`MODE_D_MAN_START : `MODE_D_MAN_END] != 0) ? 3'b11 : //nan
-						(inpB[`MODE_D_MAN_START : `MODE_D_MAN_END] == 0) ? 3'b00 : 3'b100 //denormal : normal
+						(inpB[`MODE_D_EXP_START : `MODE_D_EXP_END] == 0) ? 3'b00 : 3'b100 //denormal : normal
 					);
 
     //exp
@@ -62,7 +63,8 @@ module InputInterface(inpA, inpB, operation, outA, outB, expA, expB, signA, sign
     assign expA = (operation[1] == `S_MODE) ? inpA[`MODE_S_EXP_START : `MODE_S_EXP_END] : inpA[`MODE_D_EXP_START : `MODE_D_EXP_END];
 
     //ints
-    assign outA = (operation[1] == `S_MODE) ? {20'b0, &{~flagsA}, inpA[`MODE_S_MAN_START : 0]} : {&{~flagsA}, inpA[`MODE_D_MAN_START : 0]};
-    assign outB = (operation[1] == `S_MODE) ? {20'b0, &{~flagsB}, inpB[`MODE_S_MAN_START : 0]} : {&{~flagsB}, inpB[`MODE_D_MAN_START : 0]};
+
+    assign outA = (operation[1] == `S_MODE) ? {20'b0, &{inpA[`MODE_S_EXP_START : `MODE_S_EXP_END]}, inpA[`MODE_S_MAN_START : 0]} : {&{inpA[`MODE_D_EXP_START : `MODE_D_EXP_END]}, inpA[`MODE_D_MAN_START : 0]};
+    assign outB = (operation[1] == `S_MODE) ? {20'b0, &{inpB[`MODE_S_EXP_START : `MODE_S_EXP_END]}, inpB[`MODE_S_MAN_START : 0]} : {&{inpB[`MODE_D_EXP_START : `MODE_D_EXP_END]}, inpB[`MODE_D_MAN_START : 0]};
 
 endmodule

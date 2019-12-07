@@ -6,6 +6,8 @@
 `define OP_BITS 2
 `define INPUT_INTERFACE_INT_OUT 53
 `define INPUT_INTERFACE_EXP_OUT 11
+`define OUTPUT_INTERFACE_INT_IN 53
+`define OUTPUT_INTERFACE_EXP_IN 11
 `define OP_DIV_S 2'b00
 `define OP_SQ_S 2'b01
 `define OP_DIV_D 2'b10

@@ -1,0 +1,13 @@
+{D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_ii.v} {2 {vlog -work work {+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/basics/comparator} {+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/defs} {+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/interface} {D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_ii.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module InputInterface
+-- Compiling module TB_ii
+** Warning: D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_ii.v(48): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_ii.v(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	TB_ii
+
+} {} {}}

@@ -1,0 +1,36 @@
+{D:/ut/term 5/CAD/project/cad-fall98/dev/interface/InputInterface.v} {1 {vlog -work work {+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/interface} {+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/defs} {D:/ut/term 5/CAD/project/cad-fall98/dev/interface/InputInterface.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module InputInterface
+
+Top level modules:
+	InputInterface
+
+} {} {}} {D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_oi.v} {1 {vlog -work work {+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/interface} {+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/defs} {D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_oi.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module InputInterface
+-- Compiling module TB_oi
+
+Top level modules:
+	InputInterface
+	TB_oi
+
+} {} {}} {D:/ut/term 5/CAD/project/cad-fall98/dev/interface/OutputInterface.v} {1 {vlog -work work {+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/interface} {+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/defs} {D:/ut/term 5/CAD/project/cad-fall98/dev/interface/OutputInterface.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module OutputInterface
+
+Top level modules:
+	OutputInterface
+
+} {} {}} {D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_ii.v} {2 {vlog -work work {+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/interface} {+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/defs} {D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_ii.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module InputInterface
+-- Compiling module TB_ii
+** Warning: D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_ii.v(48): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_ii.v(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	TB_ii
+
+} {} {}}

@@ -1,0 +1,90 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ut\term 5\CAD\project\cad-fall98\dev\interface\test\input interface
+vInputInterface
+!i10b 1
+Z1 !s100 <=UbmGeeXJdCNbiVAaMV<1
+Z2 IOS9V2:J76]A7D8<01V1jJ2
+Z3 VA`5:KMYE<b81dWi`>d4gG0
+Z4 dD:\ut\term 5\CAD\project\cad-fall98\dev\interface\test\output interface
+Z5 w1575735600
+Z6 FD:/ut/term 5/CAD/project/cad-fall98/dev/interface/InputInterface.v
+Z7 8D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_ii.v
+Z8 FD:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_ii.v
+L0 4
+Z9 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z10 !s108 1575735766.661000
+Z11 !s107 D:/ut/term 5/CAD/project/cad-fall98/dev/defs/header.h|D:/ut/term 5/CAD/project/cad-fall98/dev/interface/InputInterface.v|D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_ii.v|
+Z12 !s90 -reportprogress|300|-work|work|+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/interface|+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/defs|D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_ii.v|
+!s101 -O0
+Z13 o-work work -O0
+Z14 !s92 -work work {+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/interface} {+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/defs} -O0
+Z15 n@input@interface
+vOutputInterface
+Z16 !s100 H[4X;<EIU0jPn?TBo9==?2
+Z17 Im21J^jSmEI]eZ3FKO^Zbf2
+Z18 V]@eQUX24J>jJJBQ3TO7l10
+R4
+Z19 w1575734903
+Z20 8D:/ut/term 5/CAD/project/cad-fall98/dev/interface/OutputInterface.v
+Z21 FD:/ut/term 5/CAD/project/cad-fall98/dev/interface/OutputInterface.v
+L0 3
+R9
+r1
+31
+Z22 !s90 -reportprogress|300|-work|work|+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/interface|+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/defs|D:/ut/term 5/CAD/project/cad-fall98/dev/interface/OutputInterface.v|
+R13
+R14
+Z23 n@output@interface
+Z24 !s108 1575735765.411000
+Z25 !s107 D:/ut/term 5/CAD/project/cad-fall98/dev/interface/../defs/header.h|D:/ut/term 5/CAD/project/cad-fall98/dev/interface/OutputInterface.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTB_ii
+!i10b 1
+Z26 !s100 SmoZ^83bYTTXU<81d7Q1b2
+Z27 IC@HeT1HiZ?;o^AZ0Sj1VH1
+Z28 VI5FmJ?ilYC3_o0OfDhN@<2
+R4
+Z29 w1575667774
+R7
+R8
+L0 14
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R13
+R14
+Z30 n@t@b_ii
+vTB_oi
+Z31 !s100 ==oj_l[6OaWL_O]XW]6:B0
+Z32 I^82l8k8mciEV:_=Qc4N?C3
+Z33 VIW_X0RW1]HCa63?09QkN20
+R4
+Z34 w1575733678
+Z35 8D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_oi.v
+Z36 FD:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_oi.v
+L0 14
+R9
+r1
+31
+Z37 !s108 1575735766.286000
+Z38 !s107 D:/ut/term 5/CAD/project/cad-fall98/dev/defs/header.h|D:/ut/term 5/CAD/project/cad-fall98/dev/interface/InputInterface.v|D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_oi.v|
+Z39 !s90 -reportprogress|300|-work|work|+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/interface|+incdir+D:/ut/term 5/CAD/project/cad-fall98/dev/defs|D:/ut/term 5/CAD/project/cad-fall98/dev/interface/TB_oi.v|
+R13
+R14
+Z40 n@t@b_oi
+!i10b 1
+!s85 0
+!s101 -O0
