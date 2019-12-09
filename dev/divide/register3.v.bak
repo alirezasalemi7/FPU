@@ -1,0 +1,15 @@
+module register3(clk, rst, din, qout);
+    parameter SIZE = 10;
+    input clk, rst;
+    input[3 : 0] din;
+    output reg[9 : 0] qout;
+    always @(posedge clk, posedge rst) begin
+        if(rst) begin
+            qout <= 4'b1010;
+        end
+        else begin
+            qout <= din; 
+        end
+    end
+
+endmodule

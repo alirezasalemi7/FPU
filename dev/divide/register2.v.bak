@@ -1,0 +1,15 @@
+module register2(clk, rst, din, dinit, qout);
+    parameter SIZE = 10;
+    input clk, rst;
+    input[9 : 0] din, dinit;
+    output reg[9 : 0] qout;
+    always @(posedge clk) begin
+        if(rst) begin
+            qout <= dinit;
+        end
+        else begin
+            qout <= din; 
+        end
+    end
+
+endmodule

@@ -1,0 +1,45 @@
+module dividerTB();
+    reg clock, reset;
+    reg [29:0] divisor, dividend, initi;
+    wire [29:0] Q, R;
+
+    divider #(30) D1(
+        .clk(clock),
+        .rst(reset),
+        .initCounter(initi)
+        .N(divisor),
+        .D(dividend),
+        .QO(Q),
+        .RO(R)
+    );
+    always  #10 clock = ~clock;
+    initial begin
+        clock = 1'b0;
+	divisor = 30'b000000111000000011100111001110;
+        dividend = 30'b000000010100000011100000000000;
+        initi = 30'b000000000000000000000000000000;
+        reset = 1'b0;
+        #1
+        reset = 1'b1;
+        #1
+        reset = 1'b0;
+        #600
+	// divisor = 10'b00011101110;
+        // dividend = 10'b00001110101;
+	// reset = 1'b0;
+        // #1
+        // reset = 1'b1;
+        // #1
+        // reset = 1'b0;
+	// #60
+        // divisor = 10'b11111111110;
+        // dividend = 10'b00000000011;
+	// reset = 1'b0;
+        // #1
+        // reset = 1'b1;
+        // #1
+        // reset = 1'b0;
+ 	// #60
+	$stop;
+    end
+endmodule 

@@ -1,0 +1,43 @@
+C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divunitTB.v {1 {vlog -work work -vopt -stats=none C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divunitTB.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module divunitTB
+
+Top level modules:
+	divunitTB
+
+} {} {}} C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/register.v {1 {vlog -work work -vopt -stats=none C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/register.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/_4divider.v {1 {vlog -work work -vopt -stats=none C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/_4divider.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module _4divider
+
+Top level modules:
+	_4divider
+
+} {} {}} C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divider.v {1 {vlog -work work -vopt -stats=none C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divider.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module divider
+
+Top level modules:
+	divider
+
+} {} {}} C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divunit.v {1 {vlog -work work -vopt -stats=none C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divunit.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module divunit
+
+Top level modules:
+	divunit
+
+} {} {}} C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/_44dividerTB.v {1 {vlog -work work -vopt -stats=none C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/_44dividerTB.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module _4dividerTB
+
+Top level modules:
+	_4dividerTB
+
+} {} {}}

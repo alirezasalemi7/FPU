@@ -1,0 +1,208 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Omid/Desktop/cad4
+v_4divider
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 5Bn`<VL<0R3jc;6WJ<z>L0
+Io1zYe<?CYV3oeZd23n;QN2
+Z2 dC:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide
+w1575477199
+8C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/_4divider.v
+FC:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/_4divider.v
+L0 1
+Z3 OL;L;10.6d;65
+Z4 !s108 1575921076.000000
+!s107 C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/_4divider.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/_4divider.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+n@_4divider
+v_4dividerTB
+!s110 1575921077
+!i10b 1
+!s100 SEgH[_@@IMm4@@5hFFhWN3
+IJOASYAVDoH7=g2hACzeK22
+R1
+R2
+w1575477197
+8C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/_44dividerTB.v
+FC:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/_44dividerTB.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/_44dividerTB.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/_44dividerTB.v|
+!i113 0
+R5
+R6
+n@_4divider@t@b
+T_opt
+!s110 1575413887
+VWj_EaZbAPNHGe5LL@iCmG3
+04 11 4 work _4dividerTB fast 0
+=1-e0db5591bde2-5de6e87e-bd-10ac
+o-quiet -auto_acc_if_foreign -work work
+R6
+n@_opt
+OL;O;10.5;63
+R0
+vdivider
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 zR]PZFMVa69J<^9@SX`1^0
+I>ES<QD6CdbmGFiYjoEXNN1
+R2
+w1575920808
+8C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divider.v
+FC:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divider.v
+L0 1
+R3
+Z7 !s108 1575921077.000000
+!s107 C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divider.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divider.v|
+!i113 0
+R5
+R6
+vdividerTB
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 EAz`iZ82KDW@oN=JnMobn0
+InWN^L1a3E@:nm]]<`1>8N1
+R2
+w1575921067
+8C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/dividerTB.v
+FC:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/dividerTB.v
+L0 1
+R3
+R7
+!s107 C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/dividerTB.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/dividerTB.v|
+!i113 0
+R5
+R6
+ndivider@t@b
+vdivunit
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 maHm<gJ=`g9I^[fmK02`l2
+IgMbD>7bVSfz>:3b?ZGH8I0
+R2
+w1575477018
+8C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divunit.v
+FC:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divunit.v
+L0 1
+R3
+R4
+!s107 C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divunit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divunit.v|
+!i113 0
+R5
+R6
+vdivunitTB
+!s110 1575921076
+!i10b 1
+!s100 4=Y7C45W?OJEVJfUb@U_o2
+ID[;bmWK:^h[0[0^lBGQY]1
+R1
+R2
+w1575477184
+8C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divunitTB.v
+FC:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divunitTB.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divunitTB.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/divunitTB.v|
+!i113 0
+R5
+R6
+ndivunit@t@b
+vregister
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 dUPLPam[<U<dedn96zJH^3
+IQ2FP[l;8nlAOmDC@hgWjI3
+R2
+w1575473270
+8C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/register.v
+FC:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/register.v
+L0 1
+R3
+R7
+!s107 C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/register.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/register.v|
+!i113 0
+R5
+R6
+vregister2
+Z8 !s110 1575473438
+!i10b 1
+!s100 V:0a0QI4aL<iSi?=7kOK20
+IUL<:ADUYUH9?XD^kTN2Ph3
+R1
+R2
+w1575461223
+8C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/register2.v
+FC:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/register2.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1575473438.000000
+!s107 C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/register2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/register2.v|
+!i113 0
+R5
+R6
+vregister3
+R8
+!i10b 1
+!s100 G3??2<K[1OmVC8g;1Ln8[3
+IcoQj5@Vh<mOa487:>4aXF3
+R1
+R2
+w1575464228
+8C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/register3.v
+FC:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/register3.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/register3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Omid/Desktop/UT/cad/cad-fall98/dev/divide/register3.v|
+!i113 0
+R5
+R6
