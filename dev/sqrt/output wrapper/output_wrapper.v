@@ -36,6 +36,6 @@ output wrapper module:
 	assign out_exp = (in_flags == 3'b111) ? `EXP_QNAN : //sign error
 					((in_flags == 3'b1) || (in_flags == 3'b0)) ? `EXP_ZERO : //zero or denormal numbers
 					(in_flags == 3'b10) ? `EXP_INF : //infinite number
-					(in_flags == 3'b100) ? in_mantisa : `EXP_SNAN; //normal output : others
+					(in_flags == 3'b100) ? in_exp : `EXP_SNAN; //normal output : others
 
 endmodule

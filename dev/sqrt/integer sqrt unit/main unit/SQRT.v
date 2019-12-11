@@ -12,6 +12,6 @@ module SQRT(clk , rst, start, num, ready, out);
 
 	SQRT_DP #(SIZE) Datapath(.in_num(num), .res(out), .ld(ld), .ld_out(ld_out)
 							, .mux_select(select), .finished(finished), .clk(clk), .rst(rst));
-	SQRT_CU #(SIZE) Controller(.start(start), .finished(finished), .ld(ld), .ld_out_reg(ld_out)
+	SQRT_CU Controller(.start(start), .finished(finished), .ld(ld), .ld_out_reg(ld_out)
 							, .select(select), .ready(ready), .clk(clk), .rst(rst));
 endmodule
